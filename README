@@ -1,0 +1,4 @@
+This is a simple little background class to add a neat retro shimmering starfield effect to a pygame project.
+There's one class, the Starfield, which takes a screen, a number of stars, and width and height dimensions (for the total area of the starfield). It then randomly populates the area with shimmering stars, that get brighter and dimmer for a nice effect.
+
+A real limitation is that all the stars are updated with each tick, whether or not they're visible. This means it would be impractical to fill an entire scrolling platformer level with stars. It's good for static screens, or small scrolling screens.
